@@ -25,8 +25,9 @@ Install via `conda` or `pip`:
 conda install -c conda-forge osmnx networkx geopandas pyproj shapely pandas
 
 pip install osmnx networkx geopandas pyproj shapely pandas
+```
 
-🛠 How It Works
+## 🛠 How It Works
 Simplify and project individual networks for each mode.
 
 Extract PT stop and train station centroids.
@@ -43,7 +44,7 @@ Ensure full connectivity by linking smaller components to the largest one using 
 
 Save output in multiple formats for downstream use in routing or simulation models (e.g., MATSim).
 
-✅ Outputs
+## ✅ Outputs
 Output File	Description
 melbourne_multimodal.graphml	Final connected multimodal graph
 melbourne_multimodal.gpkg	Same graph as GeoPackage
